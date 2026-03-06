@@ -2,7 +2,7 @@ data class Contact(
     val name: String,
     val phone: String?,
     val email: String?,
-    val isFavorite: Boolean
+    val isFavorite: Boolean                                                                                                                                        
 )
 
 fun addContact(list: MutableList<Contact>, contact: Contact) {
